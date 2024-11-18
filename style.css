@@ -1,0 +1,33 @@
+.container {
+text-align: center;
+width: 500px;
+padding: 200px;
+background-color: rgb(243, 145, 205);
+
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f370ad;
+    font-family: Arial, sans-serif;
+  }
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#sim{
+    background-color:rgb(140, 231, 140) ;
+    position: static;
+}
+#nao{
+    background-color: rgb(224, 146, 146);
+    position: absolute;
+}
